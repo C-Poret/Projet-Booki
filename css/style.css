@@ -370,11 +370,12 @@ span
 	justify-content: space-between;
 }
 
-.populaireTitre .fa-star
+.populaireTitre .fa-chart-line
 {
 	font-size: 20px;
 	margin-top: 30px;
 	margin-right: 20px;
+	color: #0065FC;
 }
 
 .populaireCard
