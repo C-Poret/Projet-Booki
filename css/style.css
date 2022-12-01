@@ -172,17 +172,14 @@ a
 
 .filtreButton:hover
 {
-	border: 2px solid #C8C8C8;
+	background-color: #DEEBFF;
 	cursor: pointer;
 }
 
 .filtreButton i
 {
 	color: #0065FC;
-	background-color: #DEEBFF;
-	border-radius: 50%;
-	position: relative;
-	right: 3px;
+	font-size: 15px;
 }
 
 .fa-money-bill-wave , .fa-dog
@@ -192,11 +189,11 @@ a
 	padding: 15px 14.07px;
 }
 
-.fa-child-reaching
+.fa-person
 {
 	display: flex;
 	justify-content: center;
-	padding: 15px 16.875px;
+	padding: 15px 17.82px;
 }
 
 .fa-heart
