@@ -500,7 +500,7 @@ span
 	box-shadow: 0.5px 0.5px 20px #B4B4B4;
 }
 
-.activitesCardImage
+.activitesCardArticle img
 {
 	height: 89%;
 	border-radius: 15px 15px 0 0;
@@ -562,9 +562,14 @@ footer a:hover
 /* Tablets */
 @media (max-width: 991.98px)
 { 
+	.filtreButton
+	{
+		margin-left: 0;
+	}
+
 	#hebergements
 	{
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 
 	.hebergementsMarseille
@@ -576,8 +581,8 @@ footer a:hover
 	{
 		width: 100%;
 		margin-bottom: 15px;
+		margin-top: 30px;
 		align-items: center;
-		background-color: white;
 	}
 
 	.hebergementsHotel h3
@@ -598,35 +603,67 @@ footer a:hover
 
 	.populaireCard
 	{
-		width: 85%;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.populaireCard a
+	{
+		width: 28%;
 	}
 
 	.populaireTitre
 	{	
-		width: 80%;
+		width: 100%;
 		justify-content: space-between;
 	}
 
 	.populaireHotel
 	{
 		height: 130px;
+		width: 100%;
 	}
 
-	.populaireHotelText
+	.populaireHotel img
 	{
-		margin-left: 20px;
+		width: 40%;
 	}
 
-	.populaireHotelText h3
+	.activitesMarseille
 	{
-		margin-bottom: 20px;
-		font-size: 18px;
+		height: 267px;
+		margin-bottom: 30px;
 	}
 
-	.populaireHotelText p
+	.activitesCard
 	{
-		font-size: 15px;
+		width: 21%;
 	}
+
+	.activitesCard h3
+	{
+		margin-left: 10px;
+		margin-right: 2px;
+		
+	}
+
+	.activitesCardArticle
+	{
+		height: 100%;
+	}
+
+	.activitesCard img
+	{
+		height: 222px;
+	}
+
+	.foot
+	{
+		width: 80%;
+		margin-left: 0;
+	}
+
 }
 
 
