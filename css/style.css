@@ -18,9 +18,9 @@ header
 
 .head img
 {
-	width: 100px;
-	height: 45px;
-	margin: 10px 0 10px 35px
+	width: 61px;
+	height: 19px;
+	margin: 20px 0 10px 25px;
 }
 
 .head
@@ -28,6 +28,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-bottom: 10px;
 }
 
 nav
