@@ -146,7 +146,7 @@ a
 .filtreTitre
 {
 	margin : 0 20px 0 0;
-	padding: 15px 0 15px 0;
+	padding: 21px 0 15px 0;
 	font-weight: bold;
 }
 
@@ -165,7 +165,7 @@ a
 	border: none;
 	font-size: 15px;
 	padding: 0 6px 0 0;
-	margin: 5px 20px 0 0;
+	margin: 5px 30px 0 10px;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px ;
 }
@@ -207,8 +207,7 @@ a
 {
 	font-weight: bold;
 	margin: 0;
-	padding: 13px 5px 13px 0;
-	margin-left: 5px;
+	padding: 14px 5px 13px 0;
 }
 
 
@@ -546,6 +545,7 @@ footer
 	justify-content: center;
 	background-color: #F2F2F2 ;
 	padding: 10px 0 10px 0;
+	max-width: 1400px;
 	width: 100%;
 }
 
@@ -555,7 +555,7 @@ footer
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 0 0 10px 20px;
+	margin: 30px 0 10px 40px;
 	max-width: 1400px;
 	width: 100%;
 }
