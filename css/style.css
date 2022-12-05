@@ -530,7 +530,7 @@ footer
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 30px 0 10px 40px;
+	margin: 30px 0 10px 80px;
 	max-width: 1400px;
 	width: 100%;
 }
@@ -656,6 +656,11 @@ footer a:hover
 	.activitesCard img
 	{
 		height: 222px;
+	}
+
+	footer
+	{
+		width: 96%;
 	}
 
 	.foot
@@ -904,6 +909,11 @@ footer a:hover
 	.activitesCard h3
 	{
 		margin-left: 5%;
+	}
+
+	footer
+	{
+		width: 100%;
 	}
 
 	.foot
