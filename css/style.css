@@ -128,7 +128,7 @@ a
 	padding: 15px;
 	background-color: #0065FC;
 	border: none;
-	border-radius: 15px;
+	border-radius: 0 15px 15px 0;
 	position: relative;
 	right: 15px;
 	display: none;
@@ -730,6 +730,22 @@ footer a:hover
 		margin-left: 15px;
 	}
 
+	.filtreCat
+	{
+		margin-right: 15px;
+	}
+
+	.filtreButton
+	{
+		margin: 0 0 10px 10px;
+		width: 44%;
+	}
+
+	.filtreButton p
+	{
+		font-size: 12px;
+	}
+
 	.info
 	{
 		margin-left: 15px;
@@ -760,6 +776,7 @@ footer a:hover
 	{
 		width: 100%;
 		margin: 0;
+		flex-direction: column-reverse;
 	}
 
 	.hebergementsPopulaire
@@ -787,6 +804,8 @@ footer a:hover
 	.populaireCard
 	{
 		width: 100%;
+		flex-direction: column;
+		margin-top: 10px;
 	}
 
 	.populaireCard a
@@ -823,12 +842,12 @@ footer a:hover
 	.hebergementsHotel
 	{
 		width: 90%;
-		height: 220px;
+		height: 200px;
 	}
 
 	.hebergementsHotel img
 	{
-		height: 140px;
+		height: 125px;
 		width: 98%;
 		margin: 1% 1% 0 1%;
 	}
@@ -836,11 +855,13 @@ footer a:hover
 	.hebergementsHotel h3
 	{
 		font-size: 15px;
+		margin-left: 5%;
 	}
 
 	.hebergementsHotel p
 	{
 		font-size: 13px;
+		margin-left: 5%;
 	}
 
 	.hebergementsPlus
@@ -871,13 +892,18 @@ footer a:hover
 
 	.activitesCardArticle
 	{
-		height: 220px;
+		height: 200px;
 		margin-bottom: 25px;
 	}
 
 	.activitesCardArticle img
 	{
-		height: 175px;
+		height: 150px;
+	}
+
+	.activitesCard h3
+	{
+		margin-left: 5%;
 	}
 
 	.foot
