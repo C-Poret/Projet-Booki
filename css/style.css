@@ -907,6 +907,11 @@ footer a:hover
 		height: 150px;
 	}
 
+	.activitesCardArticleGarde
+	{
+		object-position: 50% 20%;
+	}
+
 	.activitesCard h3
 	{
 		margin-left: 5%;
